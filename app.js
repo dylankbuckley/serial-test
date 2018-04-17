@@ -22,6 +22,7 @@ app.get('/', function(req, res){
 
   serialport.list(function (err, ports) {
   ports.forEach(function(port) {
+    console.log(port);
     if (port.manufacturer == 'Arduino Srl            ') {
       console.log("Debut 3D Connected");
     }
