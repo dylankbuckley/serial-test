@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "avrgirl-arduino": "^2.2.9",
     "express": "^4.16.3",
     "serialport": "^6.1.1",
     "twilio": "^3.15.0"

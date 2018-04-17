@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const Avrgirl = require('avrgirl-arduino');
+//const Avrgirl = require('avrgirl-arduino');
 const serialport = require("serialport")
 
 app.get('/', function(req, res){
